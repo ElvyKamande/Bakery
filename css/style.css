@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    color: blue;
+    background-color: brown;
+    border: 5px solid black;
+}
+h2{
+    text-align: center;
+    color: red;
+    font-style: italic;
+}
