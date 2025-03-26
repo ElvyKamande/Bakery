@@ -1,1 +1,29 @@
-{}
+{
+  "menu": [
+      {
+          "id": 1,
+          "name": "Chocolate Cake",
+          "price": 10,
+          "image": ""
+      },
+      {
+          "id": 2,
+          "name": "Strawberry Cheesecake",
+          "price": 12,
+          "image": "https://via.placeholder.com/200?text=Strawberry+Cheesecake"
+      },
+      {
+          "id": 3,
+          "name": "Croissant",
+          "price": 3,
+          "image": "https://via.placeholder.com/200?text=Croissant"
+      },
+      {
+          "id": 4,
+          "name": "Donut",
+          "price": 2,
+          "image": "https://via.placeholder.com/200?text=Donut"
+      }
+  ],
+  "orders": []
+}
