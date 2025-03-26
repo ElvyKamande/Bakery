@@ -4,25 +4,25 @@
           "id": 1,
           "name": "Chocolate Cake",
           "price": 10,
-          "image": ""
+          "image": "images/download.jpeg"
       },
       {
           "id": 2,
           "name": "Strawberry Cheesecake",
           "price": 12,
-          "image": "https://via.placeholder.com/200?text=Strawberry+Cheesecake"
+          "image": "images/download (1).jpeg"
       },
       {
           "id": 3,
           "name": "Croissant",
           "price": 3,
-          "image": "https://via.placeholder.com/200?text=Croissant"
+          "image": "images/download (2).jpeg"
       },
       {
           "id": 4,
           "name": "Donut",
           "price": 2,
-          "image": "https://via.placeholder.com/200?text=Donut"
+          "image": "images/download (3).jpeg"
       }
   ],
   "orders": []
