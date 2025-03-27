@@ -29,6 +29,7 @@ section {
 
 .menu-item img {
     width: 100%;
+    border-bottom: chocolate 1px dotted;
     height: 150px;
     object-fit: cover;
     display: flex;

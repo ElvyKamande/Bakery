@@ -31,10 +31,10 @@ function fetchOrders() {
             data.forEach(order => {
                 const li = document.createElement("li");
                 li.innerHTML = `${order.name} ordered ${order.quantity} x ${order.item}`;
-                const cancelButton = document.createElement("button");
-                cancelButton.textContent = "Cancel";
-                cancelButton.addEventListener("click", () => deleteOrder(order.id));
-                li.appendChild(cancelButton);
+                const deleteButton = document.createElement("button");
+                deleteButton.textContent = "Delete";
+                deleteButton.addEventListener("click", () => deleteOrder(order.id));
+                li.appendChild(deleteButton);
                 orderList.appendChild(li);
             });
         });
