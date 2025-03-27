@@ -63,6 +63,13 @@ footer {
     background-color: brown;
     padding: 15px;
     font-size: 18px;
+    color: white;
+    border-width: 3px;
+    width: 100%;
+    length: 100%;
+    border-color: black;
+    border-style: solid;
+    margin-top: 20px;
 }
 table {
     margin: auto;
