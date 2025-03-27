@@ -65,3 +65,11 @@ footer {
     padding: 15px;
     font-size: 18px;
 }
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 50%;
+    border: 3px dotted orange;
+    background-color: aquamarine;
+
+}
