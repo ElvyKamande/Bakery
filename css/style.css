@@ -60,3 +60,8 @@ button {
 button:hover {
     background-color: #ff3300;
 }
+footer {
+    background-color: brown;
+    padding: 15px;
+    font-size: 18px;
+}
