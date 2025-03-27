@@ -80,7 +80,7 @@ function deleteOrder(id) {
     .then(() => fetchOrders());
 }
 
-// Replace an order (PUT request)
+
 function replaceOrder(id, updatedOrder) {
     fetch(`http://localhost:3000/orders/${id}`, {
         method: "PUT",
@@ -90,8 +90,9 @@ function replaceOrder(id, updatedOrder) {
     .then(() => fetchOrders());
 }
 
-// Event Listeners
+
 document.addEventListener("DOMContentLoaded", () => {
     fetchMenu();
     fetchOrders();
 });
+document.addEventListener("orderUpdated", () => fetchOrders());
