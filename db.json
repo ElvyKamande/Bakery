@@ -1,29 +1,48 @@
 {
   "menu": [
-      {
-          "id": 1,
-          "name": "Chocolate Cake",
-          "price": 10,
-          "image": "images/download.jpeg"
-      },
-      {
-          "id": 2,
-          "name": "Strawberry Cheesecake",
-          "price": 12,
-          "image": "images/download (1).jpeg"
-      },
-      {
-          "id": 3,
-          "name": "Croissant",
-          "price": 3,
-          "image": "images/download (2).jpeg"
-      },
-      {
-          "id": 4,
-          "name": "Donut",
-          "price": 2,
-          "image": "images/download (3).jpeg"
-      }
+    {
+      "id": "1",
+      "name": "Chocolate Cake",
+      "price": 10,
+      "image": "images/download.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "Strawberry Cheesecake",
+      "price": 12,
+      "image": "images/download (1).jpeg"
+    },
+    {
+      "id": "3",
+      "name": "Croissant",
+      "price": 3,
+      "image": "images/download (2).jpeg"
+    },
+    {
+      "id": "4",
+      "name": "Donut",
+      "price": 2,
+      "image": "images/download (3).jpeg"
+    }
   ],
-  "orders": []
+  "orders": [
+    {
+      "id": "5c98",
+      "name": "Mashakura",
+      "item": "Chocolate Cake",
+      "quantity": "3"
+    },
+    {
+      "id": "df89",
+      "name": "Mashakura",
+      "item": "Chocolate Cake",
+      "quantity": "1"
+    },
+    {
+      "id": "5a37",
+      "name": "Mashakura",
+      "item": "Chocolate Cake",
+      "quantity": "4"
+    }
+  ]
 }

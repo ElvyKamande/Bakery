@@ -69,7 +69,8 @@ function updateOrder(id, newQuantity) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ quantity: newQuantity })
     })
-    .then(() => fetchOrders());
+    .then(() => fetchOrders())
+    .catch(error => console.error("Error replacing order:", error));
 }
 
 function deleteOrder(id) {
